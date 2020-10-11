@@ -1,0 +1,48 @@
+{
+  "name": "vue3-vite-ssr",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development node src/ssr/vite",
+    "build": "cross-env NODE_ENV=production node --unhandled-rejections=strict src/ssr/build",
+    "start": "cross-env NODE_ENV=production node --unhandled-rejections=strict dist/server/src/ssr/server",
+    "go": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.1",
+    "vue-i18n": "^9.0.0-beta.4",
+    "vue-router": "^4.0.0-beta.13",
+    "vue-the-storages": "^1.0.2",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^2.3.3",
+    "@rollup/plugin-url": "^5.0.1",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/server-renderer": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^7.0.1",
+    "express": "^4.17.1",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "postcss-modules": "^3.2.2",
+    "postcss-nested": "^5.0.1",
+    "pretty-bytes": "^5.4.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-postcss": "^3.1.8",
+    "rollup-plugin-terser": "^7.0.2",
+    "std-env": "^2.2.1",
+    "vite": "^1.0.0-rc.4",
+    "wrap-ansi": "^7.0.0"
+  }
+}
