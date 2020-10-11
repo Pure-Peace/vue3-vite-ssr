@@ -24,7 +24,6 @@
     "boxen": "^4.2.0",
     "chalk": "^4.1.0",
     "cross-env": "^7.0.2",
-    "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",
     "eslint": "^7.11.0",
     "eslint-plugin-import": "^2.22.1",
@@ -35,13 +34,7 @@
     "express": "^4.17.1",
     "less": "^3.12.2",
     "less-loader": "^7.0.2",
-    "postcss-modules": "^3.2.2",
-    "postcss-nested": "^5.0.1",
     "pretty-bytes": "^5.4.1",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-postcss": "^3.1.8",
-    "rollup-plugin-terser": "^7.0.2",
-    "std-env": "^2.2.1",
     "vite": "^1.0.0-rc.4",
     "wrap-ansi": "^7.0.0"
   }
