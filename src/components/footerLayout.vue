@@ -34,7 +34,7 @@
           title="osuKafuu! repo"
         ><svg-icon icon-class="github-fill" /></a>
         <a
-          href="http://wpa.qq.com/msgrd?v=3&uin=940857703&site=qq&menu=yes"
+          href="#"
           target="_blank"
           title="来对线？呵呵"
         >
